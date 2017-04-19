@@ -1,0 +1,6 @@
+/dev/block/platform/soc.0/7824900.sdhci/by-name/system       /system         auto    defaults multiboot
+/dev/block/platform/soc.0/7824900.sdhci/by-name/cache        /cache          auto    defaults multiboot
+/dev/block/platform/soc.0/7824900.sdhci/by-name/userdata     /data           auto    defaults multiboot,esp=datamedia
+/dev/block/platform/soc.0/7824900.sdhci/by-name/boot         /boot           emmc    defaults multiboot,uefi,nvvars
+/dev/block/platform/soc.0/7824900.sdhci/by-name/recovery     /recovery       emmc    defaults uefi
+/dev/block/platform/soc.0/7824900.sdhci/by-name/modem        /firmware       emmc    defaults multiboot
